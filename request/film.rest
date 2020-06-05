@@ -1,0 +1,29 @@
+#List
+GET http://localhost:9000/film
+
+######
+#ListOne
+GET http://localhost:9000/film/id/22
+
+######
+
+
+#ListOneByTitle
+GET http://localhost:9000/film/title/viento
+
+###########
+
+#ListActor
+GET http://localhost:9000/film/actor/25
+
+###########
+
+
+
+#ListOneByTitleComplex
+
+POST http://localhost:9000/film/title
+Content-Type: application/json
+{
+    "titulo":"viento se"
+}

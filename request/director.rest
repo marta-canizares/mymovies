@@ -1,0 +1,12 @@
+GET http://localhost:9000/director
+
+##########
+
+#ListOne
+GET http://localhost:9000/director/id/22
+
+
+
+############
+#ListOneByName
+GET http://localhost:9000/director/nombre/steven

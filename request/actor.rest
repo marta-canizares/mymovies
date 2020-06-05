@@ -1,0 +1,17 @@
+GET http://localhost:9000/actor
+
+##########
+
+#ListOne
+GET http://localhost:9000/actor/id/22
+
+############
+
+#ListOneByName
+GET http://localhost:9000/actor/nombre/michael
+
+
+############
+
+#ListActorFilm
+GET http://localhost:9000/actor/film/2
